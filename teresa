@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animales Fascinantes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+        }
+        .animal-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+        .animal {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            width: 250px;
+            padding: 20px;
+            text-align: center;
+        }
+        .animal img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .animal h2 {
+            color: #3498db;
+        }
+        .animal p {
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+    <h1>Animales Fascinantes</h1>
+    <div class="animal-container">
+        <div class="animal">
+            <img src="https://via.placeholder.com/250x150" alt="Tigre">
+            <h2>Tigre</h2>
+            <p>El tigre es el felino más grande del mundo. Su pelaje es naranja con rayas negras y habita en Asia.</p>
+        </div>
+        <div class="animal">
+            <img src="https://via.placeholder.com/250x150" alt="Elefante">
+            <h2>Elefante</h2>
+            <p>El elefante es el animal terrestre más grande. Tiene trompa larga y colmillos de marfil, y vive en África y Asia.</p>
+        </div>
+        <div class="animal">
+            <img src="https://via.placeholder.com/250x150" alt="Águila">
+            <h2>Águila</h2>
+            <p>El águila es un ave rapaz de gran tamaño, conocida por su visión aguda y poderosa en vuelo.</p>
+        </div>
+        <div class="animal">
+            <img src="https://via.placeholder.com/250x150" alt="León">
+            <h2>León</h2>
+            <p>El león es conocido como el "rey de la selva", es un depredador poderoso que vive en manadas en África.</p>
+        </div>
+        <div class="animal">
+            <img src="https://via.placeholder.com/250x150" alt="Delfín">
+            <h2>Delfín</h2>
+            <p>El delfín es un mamífero marino muy inteligente, conocido por su capacidad de comunicación y habilidades acrobáticas.</p>
+        </div>
+    </div>
+</body>
+</html>
